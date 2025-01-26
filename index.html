@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Olencia Fernandes</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Header Section -->
     <section id="header">
       <div class="container">
         <nav>
@@ -23,13 +23,11 @@
       </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="your-image.jpg" alt="Olencia Fernandes" />
-            <!-- Add your image here -->
+            <img src="profile.jpg" alt="Olencia Fernandes" />
           </div>
           <div class="about-col-2">
             <h1>About Me</h1>
@@ -39,29 +37,20 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-
-            <!-- Skills Section -->
             <div class="about-row">
               <h3>Skills</h3>
-              <p>
-                Web Development <br />
-                Mobile App Development
-              </p>
+              <p>Web Development <br />Mobile App Development</p>
             </div>
-
-            <!-- Experience Section -->
             <div class="about-row">
               <h3>Experience</h3>
               <p>Experience details go here.</p>
             </div>
-
-            <!-- Education Section -->
             <div class="about-row">
               <h3>Education</h3>
               <p>
                 School: St. Mary's Convent High School<br />
-                Higher Secondary: St Xaviers Higher Secondary School <br />
-                Bachlores: St Xavier's College<br />
+                Higher Secondary: St. Xaviers Higher Secondary School<br />
+                Bachelors: St. Xavier's College<br />
                 Masters: Goa University
               </p>
             </div>
@@ -70,7 +59,6 @@
       </div>
     </section>
 
-    <!-- Services Section -->
     <section id="services">
       <div class="container">
         <h1>My Services</h1>
@@ -79,26 +67,17 @@
             <span class="icon">💻</span>
             <h2>Web Design</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla
-              nibh, tincidunt sit amet sapien quis.
-            </p>
-            <a href="#" class="learn-more">Learn more</a>
-          </div>
-          <div class="service-card">
-            <span class="icon">🎨</span>
-            <h2>UI/UX Design</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla
-              nibh, tincidunt sit amet sapien quis.
+              I create clean, modern, and responsive designs for websites that
+              offer a seamless user experience.
             </p>
             <a href="#" class="learn-more">Learn more</a>
           </div>
           <div class="service-card">
             <span class="icon">📱</span>
-            <h2>App Design</h2>
+            <h2>Mobile App Development</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla
-              nibh, tincidunt sit amet sapien quis.
+              Developing user-friendly mobile apps that are functional and
+              optimized for all devices.
             </p>
             <a href="#" class="learn-more">Learn more</a>
           </div>
@@ -106,19 +85,52 @@
       </div>
     </section>
 
-    <!-- Portfolio Section -->
     <section id="portfolio">
       <div class="container">
-        <h1>Portfolio</h1>
-        <p>Details about portfolio projects.</p>
+        <h1>My Work</h1>
+        <div class="portfolio-cards">
+          <div class="portfolio-card">
+            <h2>Social Media App</h2>
+            <p>
+              A platform that connects talented people in a particular college.
+            </p>
+          </div>
+          <div class="portfolio-card">
+            <h2>Music App</h2>
+            <p>A ride-sharing app to</p>
+          </div>
+          <div class="portfolio-card">
+            <h2>To-do List</h2>
+            <p>A convenient way to keep track of your to do list</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
       <div class="container">
-        <h1>Contact</h1>
-        <p>Contact details and form.</p>
+        <h1>Contact Me</h1>
+        <form>
+          <input
+            type="text"
+            placeholder="Your Name"
+            required
+            class="contact-input"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            required
+            class="contact-input"
+          />
+          <textarea
+            placeholder="Your Message"
+            rows="5"
+            required
+            class="contact-input"
+          ></textarea>
+          <button type="submit" class="contact-button">Send Message</button>
+        </form>
       </div>
     </section>
   </body>
